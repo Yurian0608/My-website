@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #333;
+            display: flex;
+        }
+        nav {
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        nav:hover {
+            opacity: 1;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            margin: 10px 0;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #88857d;
+            color: #ff0000;
+        }
+        .content {
+            margin-left: 150px;
+            padding: 20px;
+            text-align: left;
+            width: 100%;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+
+    <body>
+        <nav>
+            <a href="C:\Users\a9766\Desktop\Website11301\2025\Web programming final project 1.html">ME</a>
+            <a href="C:\Users\a9766\Desktop\Website11301\2025\Web programming final project 2.html">HAND</a>
+            <a href="C:\Users\a9766\Desktop\Website11301\2025\Web programming final project 3.html">Recipes</a>
+            <a href="C:\Users\a9766\Desktop\Website11301\2025\Web programming final project 4.html">Health Benefits</a>
+            <a href="C:\Users\a9766\Desktop\Website11301\2025\Web programming final project 5.html">END</a>
+        </nav>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+  
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #000000;
+                color: #333;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .image-container {
+                position: relative;
+                display: inline-block;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            .hover-text {
+                position: absolute;
+                top: 50%;
+                left: 105%; /* 文字出現在圖片右側 */
+                transform: translateY(-50%);
+                background-color: #ff0000;
+                color: #000;
+                padding: 10px 15px;
+                border-radius: 5px;
+                white-space: nowrap;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                pointer-events: none;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .image-container:hover .hover-text {
+                opacity: 1; /* 滑鼠懸停時顯示文字 */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image-container">
+            <img src="BONE.jpg" alt="Kappa1" width="400" height="400">
+            <div class="hover-text">這是他一天中最常維持的姿勢，臀部好痠，脊椎開始整條好痛。</div>
+        </div>
+    </body>
+
+    </html>
+
